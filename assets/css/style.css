@@ -20,6 +20,18 @@ body
     font-size: large;
 }
 
+#sorszam
+{
+    position: relative;
+    display: block;
+    top: -350px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    font-family: Tilt Warp;
+    font-size: large;
+}
+
 .keret
 {
     box-shadow: 10px 10px 10px #eee;
