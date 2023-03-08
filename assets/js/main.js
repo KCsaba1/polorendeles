@@ -11,7 +11,7 @@ function Valt(a)
     else if (a == 1)
     {
         var felirat = document.getElementById("felirat");
-        var szoveg = document.getElementById("szoveg").value;
+        var szoveg = (document.getElementById("szoveg").value).toUpperCase();
         felirat.innerHTML = szoveg;
     }
     else
